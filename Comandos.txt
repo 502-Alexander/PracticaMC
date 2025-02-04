@@ -12,3 +12,40 @@ Crear un pull request = enviar una actualización a repositorio original
     6- realizar pull request en GitHub
         6.1- [Repositorio original] [rama] <- [Repositorio secundario] [rama]
         6.2- Crear pull request
+
+
+*--------------------------------------------------
+
+git clone
+cd  
+git pull origin main // esta es una opcion adicional 
+git checkout "nombre de la rama" //este comando es para pasarse a la rama que queremos
+git pull origin main // ya con esto ya nos pasamos a nuestra rama 
+
+
+----------------------------------------------------------------------------
+
+compilacion de programa 
+*carpeta COMPONENTES
+	-CONSULTAS
+	-REPORTEADOR
+	-SEGURIDAD // despues de comentar y compilar pasamos al 
+	-NAVEGADOR
+
+*carpeta MODULOS / Menus
+	-interfac_V3 // aqui comentamos los modulos por un momento //luego nos regresamos a seguridad y presionamos control z esto para descomentar lo que comentamos, luego agregamos la referencia en capa vista de v3
+
+compilamos los MODULOS
+	-BANCOS
+	-COMERCIAL (COMPRAVENTA) //aqui genera unos errores solo compilamos y lo cerramos
+	-CONTABILIDAD //se generan errores pero igual que el anterior solo compilamos y cerramos 
+	-CUENTAS CORRIENTES //se generan errores pero igual que el anterior solo compilamos y cerramos
+	-LOGISTICA 
+	-NOMINAS
+	-PRODUCCION 
+
+//luego de compilar todo en interfac_V3, presionamos control z para descomentar todo lo que comentamos luego compilamos // si, se sigue generando errores solo comntamos esto por referencias individuales de cada grupo y compilamos 
+// en seguridad se debe de compilar para que reconosca el interfac_v3
+
+
+contraseña HO0aGo4nM94=
