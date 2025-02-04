@@ -61,3 +61,11 @@ cd + tab (para acceder al main)
 git pull origin main (Actualizar el repositorio)
 git checkout (aqui va el nombre de la rama) (este comando es para acceder ala rama)
 
+
+-------------------------------------------------------------------------------------------------------------------------
+MODULOS...
+contabilidad 
+nominas
+comecioal
+logistica
+
