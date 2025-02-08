@@ -55,13 +55,49 @@ contraseña HO0aGo4nM94=
 ---------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
 
-
+git 
 git clone
 cd + tab (para acceder al main)
 git pull origin main (Actualizar el repositorio)
 git checkout (aqui va el nombre de la rama) (este comando es para acceder ala rama)
 
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+1. Listar ramas existentes
+--------------------------
+git branch  (Muestra todas las ramas locales del repositorio.)
 
+---------------------------------------------------
+2. Crear una nueva rama
+-----------------------
+git branch nombre_rama (Crea una nueva rama, pero no cambia a ella automáticamente.)
+
+------------------------------------------------------------------------------------------------
+
+3. Emininar ua rama
+--------------------
+git branch -d nombre_rama
+
+-----------------------------------------------------
+
+4.Renombrar una rama
+---------------------
+git branch -m nuevo_nombre (Si estás en la rama que quieres renombrar)
+
+-----------------------------------------------------------------------------------
+
+git status
+
+(Esto mostrará un resumen del estado del repositorio, 
+ indicando qué archivos han cambiado, cuáles están listos
+ para ser confirmados y si hay archivos sin seguimiento.)
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+bash
+Copiar
+Editar
 -------------------------------------------------------------------------------------------------------------------------
 MODULOS...
 contabilidad 
