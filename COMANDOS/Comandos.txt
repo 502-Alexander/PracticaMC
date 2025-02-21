@@ -105,3 +105,40 @@ nominas
 comecioal
 logistica
 
+--------------------------------------------------------------------------
+
+Base de datos:
+  1. LLD
+  2. LMD
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+* Si quieres conservar tus cambios y luego hacer pull (Guarda temporalmente los cambios sin comprometerlos en el historial de Git:)
+         git stash
+
+Luego intenta de nuevo el git pull:
+        git pull origin main
+
+Después, recupera los cambios guardados:
+        git stash pop
+
+* Si quieres descartar tus cambios locales y actualizar directamente (Advertencia: Esto eliminará cualquier modificación local no guardada.)
+        git reset --hard HEAD
+        git pull origin main
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+No tendrás ningún problema si decides no recuperar los cambios guardados con git stash pop.
+Cuando haces git stash, Git guarda tus cambios en una "pila" temporal y limpia tu área de trabajo. Si después decides que ya no los necesitas, simplemente puedes ignorarlos.
+Si quieres asegurarte de que los cambios guardados no ocupen espacio innecesario, puedes eliminar el stash con:
+              
+                   git stash drop
+
+O si hiciste varios stash y quieres limpiar todos, usa:
+
+                   git stash clear
+
+Entonces, si solo haces git stash y luego git pull origin main sin recuperarlos, no habrá problema. 🚀
+
+
+
