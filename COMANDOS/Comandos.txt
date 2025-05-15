@@ -140,5 +140,7 @@ O si hiciste varios stash y quieres limpiar todos, usa:
 
 Entonces, si solo haces git stash y luego git pull origin main sin recuperarlos, no habrá problema. 🚀
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+git pull origin main (se utiliza para actualizar tu rama local con los últimos cambios realizados en la rama main del repositorio remoto llamado origin)
