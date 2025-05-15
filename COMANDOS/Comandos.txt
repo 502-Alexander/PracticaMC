@@ -144,7 +144,7 @@ Entonces, si solo haces git stash y luego git pull origin main sin recuperarlos,
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🟡🟢⭐🌟 git pull origin main 
-       (se utiliza para actualizar tu rama local con los últimos cambios realizados en la rama main del repositorio remoto llamado origin)
+(se utiliza para actualizar tu rama local con los últimos cambios realizados en la rama main del repositorio remoto llamado origin)
 
 
 
