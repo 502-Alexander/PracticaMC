@@ -147,6 +147,16 @@ Entonces, si solo haces git stash y luego git pull origin main sin recuperarlos,
 (se utiliza para actualizar tu rama local con los últimos cambios realizados en la rama main del repositorio remoto llamado origin)
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🟡🟢⭐🌟 COMANDO PARA VER EL LOG 
+SOLO SE CAMBIA EL CORREO, LO ULTIMO ES COMO QUEREMOS QUE SE GUARDE LA INFORMACION EN ESTE CASO ES bitavora.txt
+git log --author="mcrisostomoa@miumg.edu.gt" > bitacora.txt
+
+EN CASO QUISIERAMOS VER LOS LOGs DE TODOS SOLO SE COLOCA 
+ git log
+
 
 
 
