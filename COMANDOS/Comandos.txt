@@ -6,14 +6,15 @@ Clonar un repositorio y crear el acceso remoto:
 Crear un pull request = enviar una actualización a repositorio original
     1- cd [carpeta contendedora]
     2- cd [nombre del repositorio]
-    3- git add .
-    4- git commit -m "[nombre del commit]"
-    5- git push origin [rama]
-    6- realizar pull request en GitHub
+    3- git status 				← 👀 Ver qué cambió (antes de todo)
+    4- git add .				← 📦 Agregar los archivos modificados
+    5- git commit -m "[nombre del commit]"	← 💬 Registrar los cambios
+    6- git push origin [rama]			← 🚀 Subir al repositorio remoto
+    7- realizar pull request en GitHub
         6.1- [Repositorio original] [rama] <- [Repositorio secundario] [rama]
         6.2- Crear pull request
 
-
+--😉
 *--------------------------------------------------
 
 git clone
